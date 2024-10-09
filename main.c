@@ -1,13 +1,6 @@
 #include<windows.h>
 #include<stdio.h>
 
-void* fluid_alloc(size_t len)
-{
-	void* ptr = malloc(len);
-	return ptr;
-}
-
-
 int main(int argc, char* argv[])
 {
 	int result = -1;
