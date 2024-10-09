@@ -1,6 +1,8 @@
 #include<windows.h>
 #include<stdio.h>
 
+// COMMENT
+
 int main(int argc, char* argv[])
 {
 	int result = -1;
