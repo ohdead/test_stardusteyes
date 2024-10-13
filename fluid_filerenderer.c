@@ -289,7 +289,7 @@ new_fluid_file_renderer(fluid_synth_t *synth)
         goto error_recovery;
     }
 
-    #ifdef _WIN32
+#ifdef _WIN32
     dev->sndfile = NULL;
 
     if (0 == lstrcmpA("-", filename))
